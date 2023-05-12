@@ -109,6 +109,7 @@ public class ChatClient {
 
     public void receivedText(String txt){
         System.out.println(txt);
+        controller.textReception(txt);
     }
 
     public void disconnected(){

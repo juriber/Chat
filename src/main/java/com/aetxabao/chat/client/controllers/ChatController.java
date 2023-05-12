@@ -20,6 +20,7 @@ public class ChatController extends AController {
 
     @Override
     public void textReception(String text) {
+        //txaChat.append(sasdf
     }
 
     @Override
